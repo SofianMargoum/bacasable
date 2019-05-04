@@ -1,6 +1,6 @@
 # Fromation Greta DWAM 2019
 
-Contrôle de version des fichiers du module de formation, session avril à juillet 2019
+Contrôle de version Git des fichiers du module de formation, session avril à juillet 2019
 
 ## Pour commencer
 
