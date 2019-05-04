@@ -6,6 +6,6 @@ Contrôle de version Git des fichiers du module de formation, session avril à j
 
 Ouvrez un compte (gratuit) sur [GitHub](https://github.com/), puis téléchargez le logiciel [GitHub Desktop](https://desktop.github.com/) pour votre système d'exploitation.
 
-## Exercice
+## To-do
 
 Compléter cette page
