@@ -6,6 +6,10 @@ Contrôle de version Git des fichiers du module de formation, session avril à j
 
 Ouvrez un compte (gratuit) sur [GitHub](https://github.com/), puis téléchargez le logiciel [GitHub Desktop](https://desktop.github.com/) pour votre système d'exploitation.
 
-## To-do
+## Une fois votre compte créé
 
-Compléter cette page
+Rendez-vous sur la page de ce projet, et clonez-le. Vous pouvez maintenant éditer les fichiers, et soumettre vos modifications.
+
+## À faire
+
+Compléter cette page en y ajoutant votre nom
