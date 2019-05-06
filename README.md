@@ -8,4 +8,4 @@ Ouvrez un compte (gratuit) sur [GitHub](https://github.com/), puis téléchargez
 
 ## To-do
 
-Compléter cette page
+Compléter cette page en y ajoutant votre nom
