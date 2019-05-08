@@ -9,3 +9,5 @@ Ouvrez un compte (gratuit) sur [GitHub](https://github.com/), puis téléchargez
 ## Une fois votre compte créé
 
 Compléter cette page en y ajoutant votre nom
+
+Philippe
