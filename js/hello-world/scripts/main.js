@@ -2,15 +2,27 @@
 
 /**
  * 
- 
-
- let myHeading = document.querySelector('h1');
+let myHeading = document.querySelector('h1');
 myHeading.textContent = 'Bonjour, monde !';
 */
+
 /**
  * 
- */
+let myElements = document.querySelectorAll('li');
 
+myElements.forEach(function(element) {
+  element.textContent = 'Bonjour, monde !';
+});
+*/
+
+/**
+ * 
+let myHeading = document.getElementById('myId');
+myHeading.textContent = 'Bonjour, monde !';
+*/
+
+/**
+ * 
 let myImage = document.querySelector('img');
 myImage.addEventListener('click', function() {
     let mySrc = myImage.getAttribute('src');
@@ -20,11 +32,10 @@ myImage.addEventListener('click', function() {
       myImage.setAttribute('src', 'images/firefox-icon.png');
     }
 });
+*/
 
 /**
- * 
-
-
+ *
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
