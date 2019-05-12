@@ -11,7 +11,9 @@ myHeading.textContent = 'Bonjour, monde !';
 let myElements = document.querySelectorAll('li');
 
 myElements.forEach(function(element) {
-  element.textContent = 'Bonjour, monde !';
+  if (element.textContent === 'builders') {
+    element.textContent = 'Bonjour, monde !';
+  }
 });
 */
 
