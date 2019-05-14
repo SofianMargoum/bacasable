@@ -1,0 +1,1 @@
+git config --global http.proxy http://proxyUsername:proxyPassword@proxy.realyce.fr:8181
