@@ -1,0 +1,9 @@
+AuthName "Projet Clairdelune 2018"
+AuthType Basic
+AuthUserFile "/srv/datadisk01/www/campingclairdelune.fr/lab2018/.htpasswd"
+Require valid-user
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?$1
