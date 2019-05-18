@@ -1,9 +1,4 @@
-AuthName "Projet Clairdelune 2018"
+AuthName "Greta DWAM 2019"
 AuthType Basic
-AuthUserFile "/srv/datadisk01/www/campingclairdelune.fr/lab2018/.htpasswd"
-Require valid-user
-
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?$1
+AuthUserFile "/opt/lampp/htdocs/bacasable/tools/.htpasswd"
+#Require valid-user

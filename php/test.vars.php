@@ -1,33 +1,33 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Structure de base HTML 5</title>
-    </head>
 
-    <body>
-    
-        <p>$a = array(1, 2, array("a", "b", "c"));</p>
+<?php
 
-        <?php
-        
-        var_dump($unset_var);
+/**/
+var_dump($unset_var);
+echo '<br />';
+$a = 5;
+$a += 3;
+echo $a.'<br />';
 
-        $a = array(1, 2, array("a", "b", "c"));
-        ?>
+$b = $a++;
+$c = ++$a;
+echo $a.'<br />';
+echo $b.'<br />';
+echo $c.'<br />';
 
-        <p>var_dump($a)</p>
-        <pre>
-        <?php
-        var_dump($a);
-        ?>
-        </pre>
-        
-        <p>print_r($a)</p>
-        <pre>
-        <?php
-        print_r($a);
-        ?>
-        </pre>
-    </body>
-</html>
+$d = true;
+echo $d.'<br />';
+
+$e = array(1, 2, array("aaa", "b", "c"));
+
+echo '<pre>';
+var_dump($e);
+echo '</pre>';
+
+echo '<pre>';
+print_r($e);
+echo '</pre>';
+
+
+echo '<pre>' . print_r($_SERVER, true) . '</pre>';
+echo $_SERVER['REMOTE_ADDR'];
+?>
