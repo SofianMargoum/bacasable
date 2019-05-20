@@ -1,6 +1,6 @@
 <?php
 
-echo $_POST['prenom'] . ' ' . $_POST['nom'];
+//echo $_POST['prenom'] . ' ' . $_POST['nom'];
 
 echo '<br />';
 
