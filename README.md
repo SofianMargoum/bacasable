@@ -12,6 +12,8 @@ Compléter cette page en y ajoutant votre nom
 
 Philippe Hénaff
 
+Killian JEDYNAK
+
 sofian le boss
 
 yassine
@@ -19,4 +21,5 @@ yassine
 Charlène Lombardi
 
 Laurent JOLY
+
 
