@@ -10,6 +10,7 @@ while ($nb <= 10) {
 
 <?php
 for ($nb = 1; $nb <= 10; $nb++) {
-    echo 'Ceci est la ligne n°' . $nb . '<br />';
+    echo $nb.' ligne n°' . $nb . '<br />';
 }
+
 ?>
