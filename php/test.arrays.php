@@ -1,9 +1,10 @@
 <?php
+/**/
 $prenoms = array('John', 'Alice', 'Bill', 'Jack', 'Mary');
 for ($nb = 0; $nb < 5; $nb++) {
     echo $prenoms[$nb] . '<br />';
 }
-
+var_dump($prenoms);
 echo '<hr>';
 
 foreach ($prenoms as $element) {
@@ -19,6 +20,7 @@ $coordonnees = array(
     'ville' => 'Toulon');
 
 echo $coordonnees['adresse'] . '<br />';
+var_dump($coordonnees);
 
 echo '<hr>';
 
@@ -26,13 +28,7 @@ foreach ($coordonnees as $element) {
     echo $element . '<br />';
 }
 
-echo '<hr>';
 
-foreach ($coordonnees as $element) {
-    echo $element . '<br />';
-}
-
-echo '<hr>';
 
 foreach ($coordonnees as $cle => $element) {
     echo $cle .' : '.$element . '<br />';
@@ -44,6 +40,8 @@ echo '<hr>';
 
 if (array_key_exists('nom', $coordonnees)) {
     echo 'La clé "nom" se trouve dans $coordonnees';
+} else {
+    echo 'La clé "codepostal" ne se trouve pas dans $coordonnees';
 }
 
 echo '<hr>';
@@ -56,3 +54,4 @@ echo '<hr>';
 
 $res = array_search('John', $coordonnees);
 echo '"John" est associé à la clé ' . $res;
+/**/

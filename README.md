@@ -11,5 +11,13 @@ Ouvrez un compte (gratuit) sur [GitHub](https://github.com/), puis téléchargez
 Compléter cette page en y ajoutant votre nom
 
 Philippe Hénaff
+
+Killian JEDYNAK
+
 sofian le boss
-add
+
+yassine
+
+Charlène Lombardi
+
+Laurent JOLY
