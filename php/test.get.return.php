@@ -1,8 +1,8 @@
 <?php
 
-echo $_GET['prenom'] . ' ' . $_GET['nom'];
+//echo $_GET['prenom'] . ' ' . $_GET['nom'];
 
-echo '<br />';
+//echo '<br />';
 
 if (isset($_GET['nom']) AND isset($_GET['prenom']))
 {
