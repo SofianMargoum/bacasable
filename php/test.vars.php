@@ -1,8 +1,9 @@
 
 <?php
+/*$a = 5;
+echo $a; //commentaire
 
-/**/
-var_dump($unset_var);
+//var_dump($unset_var);
 echo '<br />';
 $a = 5;
 $a += 3;
@@ -19,15 +20,18 @@ echo $d.'<br />';
 
 $e = array(1, 2, array("aaa", "b", "c"));
 
-echo '<pre>';
+//echo '<pre>';
 var_dump($e);
-echo '</pre>';
+//echo '</pre>';
 
 echo '<pre>';
 print_r($e);
-echo '</pre>';
 
 
+/**/
 echo '<pre>' . print_r($_SERVER, true) . '</pre>';
-echo $_SERVER['REMOTE_ADDR'];
+
+//echo '</pre>';
+//echo $_SERVER['REMOTE_ADDR'];
+
 ?>

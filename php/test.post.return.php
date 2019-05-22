@@ -6,7 +6,7 @@ echo '<br />';
 
 if (isset($_POST['nom']) AND isset($_POST['prenom']))
 {
-	echo $_POST['prenom'] . ' ' . $_POST['nom'];
+	echo htmlspecialchars($_POST['prenom']) . ' ' . htmlspecialchars($_POST['nom']);
 }
 else
 {
